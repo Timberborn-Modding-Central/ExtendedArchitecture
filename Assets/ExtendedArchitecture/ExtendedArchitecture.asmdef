@@ -1,0 +1,25 @@
+{
+    "name": "Elec.ExtendedArchitecture",
+    "rootNamespace": "Elec",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "0Harmony.dll",
+        "BepInEx.dll",
+        "Timberborn.AssetSystem.dll",
+        "Timberborn.BlockSystem.dll",
+        "Timberborn.Buildings.dll",
+        "Timberborn.FactionSystemGame.dll",
+        "Timberborn.Goods.dll",
+        "Timberborn.Localization.dll",
+        "Timberborn.EntitySystem.dll",
+        "Timberborn.BlockSystemNavigation.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
