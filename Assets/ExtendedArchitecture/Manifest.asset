@@ -12,14 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
   m_Name: Files
   m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
-  ErrorStacktrace: 
   StagingPaths:
   - <PluginStaging>
   files:
-  - {fileID: 2800000, guid: e9427876d42ac174eb214cadd08cff52, type: 3}
-  - {fileID: 4900000, guid: 2304b4fb1b30320469297ee22a7e3d39, type: 3}
+  - {fileID: 4900000, guid: 757bc22ebee47d9418147ad9f9e24f8f, type: 3}
+  - {fileID: 2800000, guid: ff79f995a503eb8439af9ded6bf8e48b, type: 3}
 --- !u!114 &-1528574950220137905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32,17 +29,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
   m_Name: AssetBundleDefinitions
   m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
-  ErrorStacktrace: 
   StagingPaths:
-  - <PluginStaging>
+  - <PluginAssets>
   assetBundles:
   - assetBundleName: elec.extendedarchitecture.bundle
     assets:
-    - {fileID: 4570411398072648473, guid: 70a0102b04085714fae81cae6bc7544a, type: 3}
-    - {fileID: 3251752339312670587, guid: facceb0bac57e7444ab7e093efaf2c4a, type: 3}
-    - {fileID: 4921615338885968622, guid: 84ec447eccf27c748970ca0d7ab503e6, type: 3}
+    - {fileID: 668602528646462413, guid: 70a0102b04085714fae81cae6bc7544a, type: 3}
+    - {fileID: 6439842795115214155, guid: facceb0bac57e7444ab7e093efaf2c4a, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,7 +54,9 @@ MonoBehaviour:
   - {fileID: -1528574950220137905}
   - {fileID: 7517242720529942154}
   - {fileID: -7236641153464443811}
+  - {fileID: 7909064847399801469}
   identity: {fileID: 5577075721545758434}
+  QuickAccess: 0
 --- !u!114 &2197668529777943843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,11 +69,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
   m_Name: AssemblyDefinitions
   m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
-  ErrorStacktrace: 
   StagingPaths:
-  - <PluginStaging>
+  - <PluginRoot>
   definitions:
   - {fileID: 5897886265953266890, guid: 77b265399b1c9bb438b3982d33ad24e8, type: 3}
 --- !u!114 &5577075721545758434
@@ -93,17 +85,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
   m_Name: ManifestIdentity
   m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
-  ErrorStacktrace: 
   StagingPaths:
   - <GamePath>\BepInEx\plugins\
   Author: Elec
   Name: ExtendedArchitecture
   Description: Adds new structures to the game.
-  Version: 0.2.0
+  Version: 0.3.1
   Dependencies:
   - {fileID: 11400000, guid: da65de98479f7eb661d76bb107806269, type: 2}
+  - {fileID: 11400000, guid: 03fecd7e46c50064e85fe0451b4dc409, type: 2}
 --- !u!114 &7517242720529942154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,9 +106,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a82fec78ebc734d9ad1346cd40b5f9, type: 3}
   m_Name: ThunderstoreData
   m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
-  ErrorStacktrace: 
   StagingPaths:
   - <PluginStaging>
   url: https://github.com/TheElec
+--- !u!114 &7909064847399801469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <PluginRoot>
+  files:
+  - {fileID: 102900000, guid: e3ca31b2ad5ea98468208857fb36e9ab, type: 3}

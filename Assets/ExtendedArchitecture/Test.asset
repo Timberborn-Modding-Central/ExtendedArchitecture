@@ -12,12 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50df4f9027e15e04b931a8d460fb22c5, type: 3}
   m_Name: ExecutePipeline
   m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
-  ErrorStacktrace: 
   Active: 1
   OverrideManifest: 1
-  executePipeline: {fileID: 11400000, guid: f4d9cfe8c28ad6b40a5e3a31989d2637, type: 2}
+  targetpipeline: {fileID: 11400000, guid: f4d9cfe8c28ad6b40a5e3a31989d2637, type: 2}
 --- !u!114 &-7126958591744527933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30,18 +27,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03063c7a6ec04cc4c82c75cf9bcc8db8, type: 3}
   m_Name: Copy
   m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
-  ErrorStacktrace: 
   Active: 1
   PerManifest: 1
-  ExcludedManifests:
+  ListType: 0
+  Manifests:
   - {fileID: 11400000, guid: da65de98479f7eb661d76bb107806269, type: 2}
   Recursive: 1
   SourceRequired: 1
   EstablishDestination: 1
   Source: <PluginStaging>
-  Destination: <GamePath>/BepInEx/plugins/ExtendedArchitecture
+  Destination: <GamePath>/BepInEx/plugins/Elec.ExtendedArchitecture
 --- !u!114 &-2603424408181603434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,9 +49,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77f65d4371163fb4695da79ab8df0e84, type: 3}
   m_Name: ExecuteProcess
   m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
-  ErrorStacktrace: 
   Active: 0
   workingDirectory: <GamePath>
   executable: <GameExecutable>
@@ -77,4 +69,5 @@ MonoBehaviour:
   - {fileID: -7393616582995357131}
   - {fileID: -7126958591744527933}
   - {fileID: -2603424408181603434}
+  QuickAccess: 0
   manifest: {fileID: 11400000, guid: 8423f130b8e4fb071affd7b31f4d52d1, type: 2}

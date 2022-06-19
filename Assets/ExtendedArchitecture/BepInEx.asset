@@ -12,14 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
   m_Name: ManifestIdentity
   m_EditorClassIdentifier: 
-  Errored: 0
-  ErrorMessage: 
-  ErrorStacktrace: 
   StagingPaths: []
   Author: BepInEx
   Name: BepInExPack_Timberborn
   Description: 
-  Version: 5.4.16
+  Version: 5.4.19
   Dependencies: []
 --- !u!114 &11400000
 MonoBehaviour:
@@ -36,3 +33,4 @@ MonoBehaviour:
   Data:
   - {fileID: -3933364937090798409}
   identity: {fileID: -3933364937090798409}
+  QuickAccess: 0
